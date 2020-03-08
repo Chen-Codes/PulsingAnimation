@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DD0D357CB7A23856D27E4D4 /* Pods_ChenCodesPulsingAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605FF927250E03E5FF510380 /* Pods_ChenCodesPulsingAnimation.framework */; };
+		BA50C82D23FF74BC0016039C /* PulsingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA50C82C23FF74BC0016039C /* PulsingView.swift */; };
 		BA524CB023FF731D00BCA8BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA524CAF23FF731D00BCA8BD /* AppDelegate.swift */; };
 		BA524CB223FF731D00BCA8BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA524CB123FF731D00BCA8BD /* SceneDelegate.swift */; };
 		BA524CB423FF731D00BCA8BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA524CB323FF731D00BCA8BD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		605FF927250E03E5FF510380 /* Pods_ChenCodesPulsingAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChenCodesPulsingAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA50C82C23FF74BC0016039C /* PulsingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingView.swift; sourceTree = "<group>"; };
 		BA524CAC23FF731D00BCA8BD /* ChenCodesPulsingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChenCodesPulsingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA524CAF23FF731D00BCA8BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA524CB123FF731D00BCA8BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		BA524CB823FF731E00BCA8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA524CBB23FF731E00BCA8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA524CBD23FF731E00BCA8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E6299ABA84CFE8AE1D3CD8 /* Pods-ChenCodesPulsingAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChenCodesPulsingAnimation.debug.xcconfig"; path = "Target Support Files/Pods-ChenCodesPulsingAnimation/Pods-ChenCodesPulsingAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA4D2C45981F58CC18AA926 /* Pods-ChenCodesPulsingAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChenCodesPulsingAnimation.release.xcconfig"; path = "Target Support Files/Pods-ChenCodesPulsingAnimation/Pods-ChenCodesPulsingAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD0D357CB7A23856D27E4D4 /* Pods_ChenCodesPulsingAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66CBF1DF6F89FA7301A715D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5E6299ABA84CFE8AE1D3CD8 /* Pods-ChenCodesPulsingAnimation.debug.xcconfig */,
+				FCA4D2C45981F58CC18AA926 /* Pods-ChenCodesPulsingAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BA524CA323FF731D00BCA8BD = {
 			isa = PBXGroup;
 			children = (
 				BA524CAE23FF731D00BCA8BD /* ChenCodesPulsingAnimation */,
 				BA524CAD23FF731D00BCA8BD /* Products */,
+				66CBF1DF6F89FA7301A715D3 /* Pods */,
+				D9CCF140E0075F1136AF38BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +77,21 @@
 				BA524CAF23FF731D00BCA8BD /* AppDelegate.swift */,
 				BA524CB123FF731D00BCA8BD /* SceneDelegate.swift */,
 				BA524CB323FF731D00BCA8BD /* ViewController.swift */,
+				BA50C82C23FF74BC0016039C /* PulsingView.swift */,
 				BA524CB523FF731D00BCA8BD /* Main.storyboard */,
 				BA524CB823FF731E00BCA8BD /* Assets.xcassets */,
 				BA524CBA23FF731E00BCA8BD /* LaunchScreen.storyboard */,
 				BA524CBD23FF731E00BCA8BD /* Info.plist */,
 			);
 			path = ChenCodesPulsingAnimation;
+			sourceTree = "<group>";
+		};
+		D9CCF140E0075F1136AF38BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605FF927250E03E5FF510380 /* Pods_ChenCodesPulsingAnimation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA524CC023FF731E00BCA8BD /* Build configuration list for PBXNativeTarget "ChenCodesPulsingAnimation" */;
 			buildPhases = (
+				A2B9370F018C0DA511E39E9E /* [CP] Check Pods Manifest.lock */,
 				BA524CA823FF731D00BCA8BD /* Sources */,
 				BA524CA923FF731D00BCA8BD /* Frameworks */,
 				BA524CAA23FF731D00BCA8BD /* Resources */,
+				EF27530E871EB93E8317F3E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +162,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2B9370F018C0DA511E39E9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChenCodesPulsingAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF27530E871EB93E8317F3E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChenCodesPulsingAnimation/Pods-ChenCodesPulsingAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChenCodesPulsingAnimation/Pods-ChenCodesPulsingAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChenCodesPulsingAnimation/Pods-ChenCodesPulsingAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA524CA823FF731D00BCA8BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA524CB423FF731D00BCA8BD /* ViewController.swift in Sources */,
+				BA50C82D23FF74BC0016039C /* PulsingView.swift in Sources */,
 				BA524CB023FF731D00BCA8BD /* AppDelegate.swift in Sources */,
 				BA524CB223FF731D00BCA8BD /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +354,7 @@
 		};
 		BA524CC123FF731E00BCA8BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E6299ABA84CFE8AE1D3CD8 /* Pods-ChenCodesPulsingAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +372,7 @@
 		};
 		BA524CC223FF731E00BCA8BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA4D2C45981F58CC18AA926 /* Pods-ChenCodesPulsingAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
